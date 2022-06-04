@@ -17,7 +17,6 @@ void setup() {
    if(disobj.begin(SSD1306_SWITCHCAPVCC,0x3C))
    {
         digitalWrite(D5,HIGH);
-
    }
    else{
      digitalWrite(D5,LOW);
